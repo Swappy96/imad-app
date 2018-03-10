@@ -18,10 +18,10 @@ app.get('/ui/madi.png', function (req, res) {
 });
 
 app.get('/art-one', function (req, res) {
-  res.sendFile(send('Art 1 rq and send'));
+  res.send('Art 1 rq and send');
 });
 app.get('/art-two', function (req, res) {
-  res.sendFile(send('Art 2 rq and send'));
+  res.send('Art 2 rq and send');
 });
 
 
